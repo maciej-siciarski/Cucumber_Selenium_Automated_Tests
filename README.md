@@ -22,4 +22,6 @@
     ❗❗ Changing the path to the local Webdriver in the code is required to enable test execution. ❗❗
 
                The rest of the frameworks and tools will be built from dependencies in pom.xml. 
-  
+
+
+## Tests execution  
