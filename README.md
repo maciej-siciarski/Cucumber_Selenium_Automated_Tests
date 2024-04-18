@@ -24,4 +24,26 @@
                The rest of the frameworks and tools will be built from dependencies in pom.xml. 
 
 
-## Tests execution  
+## Tests execution - The first test  
+
+**Test Description:** First_Task_Login.feature
+
+**Objective:** The objective of this test is to verify the successful execution of the login functionality and subsequent address creation on the specified platform.
+
+<details>
+<summary>Complete Test Step Description: </summary><br>
+
+
+**Logging in**: The test will log in using the credentials of the designated user.
+
+**Navigating to Addresses**: Upon successful login, the test will navigate to the Addresses section by clicking on the respective tile. The expected URL for the address page is: https://mystore-3.testlab.coderslab.pl/index.php?controller=addresses.
+
+**Creating a New Address:** Once on the Addresses page, the test will initiate the creation of a new address by clicking on the "+ Create new address" button.
+
+**Completing the New Address Form:** The test will fill out the New Address form with the data provided in the Examples table within the Gherkin feature file. This data includes: alias, address, city, zip/postal code, country, and phone number.
+
+**Validating the Added Address:** Upon successful submission of the form, the test will verify the correctness of the added address data. This validation will be performed using assertions from the JUnit library.
+
+**Expected Outcome:** The expected outcome of this test is the successful execution of all steps outlined above, culminating in the creation of a new address with accurately inputted data.
+
+</details>
