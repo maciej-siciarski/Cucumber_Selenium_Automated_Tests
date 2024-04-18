@@ -36,7 +36,7 @@
 
 **Logging in**: The test will log in using the credentials of the designated user.
 
-**Navigating to Addresses**: Upon successful login, the test will navigate to the Addresses section by clicking on the respective tile. The expected URL for the address page is: https://mystore-3.testlab.coderslab.pl/index.php?controller=addresses.
+**Navigating to Addresses**: Upon successful login, the test will navigate to the Addresses section by clicking on the respective tile.
 
 **Creating a New Address:** Once on the Addresses page, the test will initiate the creation of a new address by clicking on the "+ Create new address" button.
 
