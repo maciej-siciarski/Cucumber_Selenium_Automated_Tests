@@ -26,7 +26,7 @@
 
 ## Tests execution - The first test  
 
-**Test Description:** First_Task_Login.feature
+**Test Description:** [First_Task_Login.feature](https://github.com/maciej-siciarski/maciej-siciarski/blob/main/Attachements/First_Task_Steps.png)
 
 **Objective:** The objective of this test is to verify the successful execution of the login functionality and subsequent address creation on the specified platform.
 
@@ -42,8 +42,14 @@
 
 **Completing the New Address Form:** The test will fill out the New Address form with the data provided in the Examples table within the Gherkin feature file. This data includes: alias, address, city, zip/postal code, country, and phone number.
 
-**Validating the Added Address:** Upon successful submission of the form, the test will verify the correctness of the added address data. This validation will be performed using assertions from the JUnit library.
+**Validating the Added Address:** Upon successful submission of the form, the test will verify the correctness of the added address data. This validation will be performed using [assertions](https://github.com/maciej-siciarski/maciej-siciarski/blob/main/Attachements/Assertions%20JUnit.png) from the JUnit library.
 
 **Expected Outcome:** The expected outcome of this test is the successful execution of all steps outlined above, culminating in the creation of a new address with accurately inputted data.
 
 </details>
+
+
+https://github.com/maciej-siciarski/Cucumber_Selenium_Automated_Tests/assets/147531793/9f179638-7817-4b83-9890-f763baa606aa
+
+
+
